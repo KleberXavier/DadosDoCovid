@@ -3,7 +3,7 @@ window.onload = function(){
 }
 
 function showData(data){
-    var str = "<h1>COVID19</h1>";
+    var str = "<h1></h1>";
     
     for (var i=0; i<data.length; i++){
         str += "<article>";
@@ -11,7 +11,7 @@ function showData(data){
         str += "<p>Confirmados: " + data[i].Confirmed + "</p>";
         str += "<p>Ativos: " + data[i].Active + "</p>";
         str += "<p>Recuperados: " + data[i].Recovered + "</p>";
-        str += "<p>Deaths: " + data[i].Deaths + "</p>";
+        str += "<p>Mortes: " + data[i].Deaths + "</p>";
         str += "</article>";
     }
     
